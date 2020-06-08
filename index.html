@@ -1,24 +1,25 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="utf-8"/>
     <title>it</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"> 
-    <link rel="stylesheet" href="./css/styles.css"/>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./normalize.css">
   </head>
   <body>
 <header>
-  <nav>
-  <a href="/">Web Studio</a>
-    <ul>
-      <li><a href="">Студия</a></li>
-      <li><a href="">Портфолио</a></li>
-      <li><a href="">Контакты</a></li>
+  <nav class="nav-section">
+  <a href="/" class="logo">
+    <span class="logo-part-one">Web</span>Studio</a>
+    <ul class="nav list">
+      <li><a href="" class="link">Студия</a></li>
+      <li><a href="./portfolio.html" class="link" >Портфолио</a></li>
+      <li><a href="" class="link">Контакты</a></li>
     </ul>
-  <address>
-    <a href="milto:info@example.com"><img src="./images/email.svg" alt="milto">info@example.com</a>
-    <a href="tel:+380991111111">+380991111111</a>
-    <img src="./images/mobail.svg" alt="mobail">
+  <address class="contacts list">
+    <a href="milto:info@example.com" class="link"><img src="./images/email.svg" alt="milto" width="16" height="11">info@devstudio.com</a>
+    <a href="tel:+380991111111" class="link"><img src="./images/mobail.svg" alt="mobail" width="10" height="15">+380991111111</a>
   </address>
 </nav>
 </header>
@@ -108,23 +109,28 @@
   </ul>
 </section>
 </main>
-    <footer>
-      <a href="/">Web Studio></a>
-      <address>  
+    <footer class="footer">
+      <a href="/" class="logo">
+        <span class="logo-part-one">Web</span>
+        <span class="logo-part-two">Studio</span>
+    </a>
+      <address class="adrress">  
         <p>г. Киев, пр-т Леси Украинки, 26</p>
-        <a href="tel:0991111111">+380991111111</a>
-        <a href="milto:info@example.com">info@example.com</a>
+        <ul>
+          <li><a href="milto:info@example.com" class="link"><img src="./images/email.svg" alt="milto"width="16" height="11">info@devstudio.com</a></li>
+          <li><a href="tel:+380991111111" class="link">+380991111111</a></li>
+        </ul>
       </address>
       <div>
         <b>ПРИСОЕДИНЯЙТЕСЬ</b>
       <ul>
-        <li><a href="https://instagram.com">instagram</a></li>
-        <li><a href="https://twitter.com">twitter</a></li>
-        <li><a href="https://facebook.com">facebook</a></li>
-        <li><a href="https://linkedin.com">LinkedIn</a></li>
+        <li><a href="https://instagram.com" class="link">instagram</a></li>
+        <li><a href="https://twitter.com" class="link">twitter</a></li>
+        <li><a href="https://facebook.com" class="link">facebook</a></li>
+        <li><a href="https://linkedin.com" class="link">LinkedIn</a></li>
       </ul>
       </div>
-      <div>
+      <div class="site-developers">
         <p>
           2020|Developed by GoIT Students
         </p>
